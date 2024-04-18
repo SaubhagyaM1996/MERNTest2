@@ -74,7 +74,7 @@ code {
 }
 
 .desc {
-  height: 160px;
+  height: 200px;
   padding: 10px;
 }
 
@@ -92,4 +92,13 @@ p {
   color: #6c757d;
   font-size: 1em;
   padding: 10px 0 10px 0;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-primary {
+  margin: 5px;
+  width: fit-content;
 }
