@@ -71,7 +71,7 @@ export default function BooksList() {
           <div className='col-md-11'>
             <Link
               to='/create'
-              className='btn btn-outline-warning float-right'
+              className='btn btn-info float-right'
             >
               + Add New Book
             </Link>
