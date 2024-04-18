@@ -11,7 +11,8 @@ export default function CreateBook() {
     e.preventDefault();
 
     let book = {title: title , author: author, description: description};
-    const url = "http://localhost:5000/api";
+    const url = "https://mern-test2-api.vercel.app/api"
+    // const url = "http://localhost:5000/api";
     axios
       .post(url, book)
       .then((res) => {
